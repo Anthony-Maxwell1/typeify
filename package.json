@@ -1,0 +1,32 @@
+{
+  "name": "typeify",
+  "version": "1.0.0",
+  "description": "Convert JavaScript code to TypeScript by inferring types.",
+  "type": "module",
+  "bin": {
+    "typescriptify": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anthony-Maxwell1/typeify.git"
+  },
+  "keywords": [],
+  "author": "Anthony Maxwell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anthony-Maxwell1/typeify/issues"
+  },
+  "homepage": "https://github.com/Anthony-Maxwell1/typeify#readme",
+  "dependencies": {
+    "acorn": "^8.16.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.3.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
